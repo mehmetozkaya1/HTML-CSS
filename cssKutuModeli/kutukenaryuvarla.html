@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        /* 
+            Kutunun daha öne ya da daha arkaya taşınabilmesi için z-index kullanılıright: .;
+            z-index değeri büyük olan kutular daha öndedir.
+        */
+        .kutu{
+            width: 400px;
+            height: 150px;
+            border-style: solid;
+            background-color: cyan;
+            border-radius: 20px;
+            border-width: 8px;
+        }
+        #bir{
+            z-index: 1;
+        }
+        #iki{
+            position: relative;
+            top: -50px;
+            left: 50px;
+            background-color: yellowgreen;
+            z-index: -1;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="kutu">
+
+    </div>
+    <div id="bir">
+
+    </div>
+    <div id="iki">
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+/*
+    Satır içi css kodu mu, link ile sayfaya bağlanan
+    external css kodu yoksa sayfa içi css kodu mu önceliklidir?
+    Öncelik her zaman satır içerisinde yazılan css kodu içindir.
+    Ardından sayfa içindeki css kodu ve en sonda ise external css kodu
+    önceliklidir.
+*/

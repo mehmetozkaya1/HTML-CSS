@@ -1,0 +1,29 @@
+/*
+    Css kodunu belli HTML etiketlerine uygulamak için:
+*/
+
+h1, p, h3
+{
+    font-size: 16px;
+    color: azure;
+}
+
+/* 
+    Css kodunu id değerlerine uygulamak için
+*/
+
+#id-degeri
+{
+    font-size: 200px;
+    color: brown;
+}
+
+/*
+    Css kodunu belirli class özelliklerine uygulamak için
+*/
+
+.class-name
+{
+    font-size: 100px;
+    color: palevioletred;
+}

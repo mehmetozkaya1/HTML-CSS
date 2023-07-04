@@ -1,0 +1,130 @@
+/* CSS dosyamız */
+
+/* Boşlukları sıfırla */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#sayfa{
+    width: 400px;
+    min-height: 600px;
+    border-style: solid;
+    border-width: 1px;
+    margin: auto;
+}
+
+#banner{
+    width: 398px;
+    min-height: 100px;
+    border-style: solid;
+    border-width: 1px;
+    margin: auto;
+    background-color: blanchedalmond;
+}
+
+#logo{
+    width: 100px;
+    min-height: 80px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgb(121, 88, 39);
+    position: relative;
+    top: 10px;
+    left: 10px;
+    float: left;
+}
+
+#sosyal{
+    width: 150px;
+    min-height: 40px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgb(121, 88, 39);
+    float: right;
+    position: relative;
+    right: 10px;
+    top: 50px;
+}
+
+#anamenu{
+    width: 398px;
+    height: 50;
+    border-style: dotted;
+    border-width: 1px;
+    margin: auto;
+    background-color: rgb(41, 62, 179);
+}
+
+#anamenu ul{
+    list-style-type: none;
+}
+
+#anamenu ul li{
+    width: 80px;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: blue;
+    background-color: white;
+    float: left;
+    padding: 2px;
+    margin-left: 5px;
+    position: relative;
+    top: 10px;
+    text-align: center;
+}
+
+#anamenu ul a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#anamenu ul a:link{
+    color: blue;
+}
+
+#anamenu ul a:visited{
+    color: tomato;
+}
+
+#anamenu ul a:hover{
+    color: salmon;
+    text-decoration: underline;
+}
+
+#anamenu ul a:active{
+    color: red;
+}
+
+#icerik{
+    width: 300px;
+    min-height: 400px;
+    border-style: solid;
+    border-width: 1px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+
+#yanmenu{
+    width: 96px;
+    min-height: 400px;
+    border-style: solid;
+    border-width: 1px;
+    margin: auto;
+    background-color: rgb(27, 12, 191);
+    float: left;
+}
+
+#altmenu{
+    width: 398px;
+    min-height: 50px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgb(12, 104, 191);
+    float: left;
+}

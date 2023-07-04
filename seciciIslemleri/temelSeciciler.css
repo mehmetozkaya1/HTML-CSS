@@ -1,0 +1,10 @@
+/*
+    *: Her şeyi seçer.
+    p: Tüm paragraf etiketleri seçilir.
+    #<id>: Verilen id değerine sahip elemanlar için seçilir.
+    .<class>: Verilen class değerine sahip elemanlar seçilir.
+    h1.<class>: Verilen class değerine sahip h1 etiketleri seçilir.
+    p strong: p tagleri içerisindeki strong tag'leri için uygulanır.
+    nav #<id>: nav tagı içerisinde verilen id değerine sahip elemanlar seçilir.
+    h1,h2,h3,h4,h5,h6: Tüm header tag'ları için uygulanır.
+*/

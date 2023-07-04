@@ -1,0 +1,17 @@
+/*
+    .banner p: class değeri banner olan eleman içerindeki p etiketlerini seçer.
+    div>p: Ebeveyni div olan tüm p etiketlerini seçer.
+    .menu ul li: class değeri menu olan tüm elemanların içerisindeki tüm ul elemanları içerisindeki tüm li etiketlerini seçer.
+    nav.menu li: class değeri menu olan tüm nav etiketleri içerisindeki li'leri seçer.
+    body>p:first-child: body etiketi içerisindeki ilk paragrafı seçer. (İlk çocuk eleman)
+    body>p:last-child: body etiketi içerisindeki son paragrafı seçer. (son çocuk eleman)
+    :active: Aktif olan elemanı seçer.
+    :after: Sonraki elemanı seçer.
+    a:link: Henüz ziyaret edilmemiş linkleri seçer.
+    a:visited: Ziyaret edilmiş linkleri seçer.
+    a:focus: Klavye ile etkinleştirilmiş linkleri seçer.
+    a:hover: Üzerinde fare olan linkleri seçer.
+    input[type]: <input> içinde type özelliğine sahip olanları seçer.
+    input[type="text"]: <input> içinde type özelliği text olanları seçer.
+    img[title~="kedi"]: <img> etiketinde title özelliği kedi olanları seçer.
+*/

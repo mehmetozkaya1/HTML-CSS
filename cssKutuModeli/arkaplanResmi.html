@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arkaplan Resim Ayarları</title>
+    <style>
+
+        /*
+            Arkaplan resmi body etiketine de uygulanabilir.
+            background-repeat: Arkaplan resmi yetmezse tekrar ettirir.
+            backgorund-position: Arkaplan resminin konumunu ayarlar.
+            background-attachment: Resmin konumunu otomatik olarak ayarlar. fixed dersek sürekli sabit kalır. scroll dersek biz sayfayı kaydırdığımızda bile resim de hareket eder.
+        */
+        h1{
+            border-style: solid;
+        }
+        p{
+            border-style: solid;
+            width: 200px;
+            height: 100px;
+            background-color: khaki;
+            background-image: url(../resimler/bayrak.jpg);
+            background-size: 100px;
+            background-repeat: no-repeat;
+            background-position: center; /* Her açıdan ortalar - top left - top center - bottom center - bottom right gibi kullanılabilir. */
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Başlık</h1>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, nisi!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur temporibus nam quidem incidunt neque aut recusandae rerum deserunt repellat sequi.</p>
+
+</body>
+</html>

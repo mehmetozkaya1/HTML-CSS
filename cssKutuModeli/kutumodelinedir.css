@@ -1,0 +1,18 @@
+/*
+    CSS HTML etiketlerini bir kutucuk olarak görür.
+    Her etiketin belirli bir hacmi vardır.
+    CSS ile bu kutuların özelliklerini ayarlayabiliriz.
+    HTML komutları içerik, iç aralık, kenarlık ve dış-aralıktan oluşurlar.
+    İç aralık = padding
+    Dış aralık = margin
+    margin diğer nesnelerle arasındaki bpşluktur.
+    padding ise HTML kutusu içerisindeki boşluktur.
+
+    Kutu modelinde HTML komutlarının bazıları block,
+    bazıları ise inline olarak çalışırlar.
+
+    block olarak çalışan hx, table, p etiketleri satırı
+    baştan sona tamamen kaplarlar.
+    inline olarak çalışan a, b, em veya img gibi etiketler
+    ise sadece bulundukları alanı kaplarlar.
+*/
